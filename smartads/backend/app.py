@@ -8,7 +8,17 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+
+# Configure CORS to allow requests from Vercel frontend
+CORS(app, origins=[
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:5174",
+    "https://smartads-fyp.vercel.app",
+    "https://smartads-rm6tpisvy-abdullahs-projects-a8d1852f.vercel.app",
+    "https://*.vercel.app"
+], supports_credentials=True)
 
 # Root route
 @app.route("/")
