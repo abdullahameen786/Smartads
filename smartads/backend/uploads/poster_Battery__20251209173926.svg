@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background - Darker Teal/Blue-Gray -->
+    <rect x="0" y="0" width="512" height="512" fill="#1d343e"/>
+
+    <!-- Central Geometric Block - Lighter Dark-Gray for content area -->
+    <rect x="50" y="50" width="412" height="412" fill="#37393e"/>
+
+    <!-- Geometric Diagonal Lines on the Central Block -->
+    <path d="M 50 50 L 462 462" stroke="#1d343e" stroke-width="5"/>
+    <path d="M 462 50 L 50 462" stroke="#1d343e" stroke-width="5"/>
+
+    <!-- Stylized Battery Icon -->
+    <!-- Battery Body - Darker Teal/Blue-Gray -->
+    <rect x="180" y="150" width="150" height="200" rx="10" ry="10" fill="#1d343e"/>
+    <!-- Battery Terminal - Darker Teal/Blue-Gray -->
+    <rect x="220" y="130" width="70" height="20" rx="5" ry="5" fill="#1d343e"/>
+
+    <!-- Battery Charge Indicators - Lighter Dark-Gray, contrasting with battery body -->
+    <rect x="200" y="170" width="110" height="40" rx="5" ry="5" fill="#37393e"/>
+    <rect x="200" y="220" width="110" height="40" rx="5" ry="5" fill="#37393e"/>
+    <rect x="200" y="270" width="110" height="40" rx="5" ry="5" fill="#37393e"/>
+
+    <!-- Brand Name "Battery" -->
+    <text x="256" y="100" text-anchor="middle" font-family="sans-serif" font-size="60" font-weight="bold" fill="#1d343e">Battery</text>
+
+    <!-- Tagline "Oppo battery" -->
+    <text x="256" y="420" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#1d343e">Oppo battery</text>
+</svg>

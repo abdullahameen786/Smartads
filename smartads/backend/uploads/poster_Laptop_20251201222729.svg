@@ -1,0 +1,26 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1024" height="1024" fill="#111827"/>
+
+    <!-- Laptop Icon (Stylized, Minimalist) -->
+    <g transform="translate(512, 520)"> <!-- Center the laptop group around x=512, y=520 -->
+        <!-- Laptop Base -->
+        <!-- Centered horizontally: -200 to +200. Bottom edge of the base is at y=0 relative to the group origin. -->
+        <rect x="-200" y="0" width="400" height="20" rx="8" fill="#0ea5e9"/>
+
+        <!-- Laptop Screen (Rotated for an open effect) -->
+        <!-- Hinge point for the screen is at (0,0) of this inner group.
+             The screen rectangle is defined with its bottom edge at y=0, then rotated. -->
+        <g transform="rotate(-15)"> <!-- Rotate 15 degrees counter-clockwise around the hinge (0,0) -->
+            <rect x="-190" y="-270" width="380" height="270" rx="8" fill="#0ea5e9"/>
+        </g>
+    </g>
+
+    <!-- Brand Name: Laptop -->
+    <text x="512" y="660" font-family="sans-serif" font-size="80" font-weight="bold" fill="#0ea5e9" text-anchor="middle">Laptop</text>
+
+    <!-- Tagline: HP laptop -->
+    <text x="512" y="720" font-family="sans-serif" font-size="40" fill="#0ea5e9" text-anchor="middle">
+        <tspan font-weight="bold">HP</tspan> laptop
+    </text>
+</svg>

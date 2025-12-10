@@ -1,0 +1,8 @@
+flask
+pymongo
+flask-cors
+python-dotenv
+werkzeug
+google-generativeai
+cloudinary
+bcrypt

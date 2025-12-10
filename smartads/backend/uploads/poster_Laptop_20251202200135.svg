@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main dark background -->
+  <rect x="0" y="0" width="512" height="512" fill="#12151c"/>
+
+  <!-- Geometric corner accents (light grey) -->
+  <polygon points="0,0 100,0 0,100" fill="#c8cacb"/>
+  <polygon points="512,0 412,0 512,100" fill="#c8cacb"/>
+  <polygon points="0,512 100,512 0,412" fill="#c8cacb"/>
+  <polygon points="512,512 412,512 512,412" fill="#c8cacb"/>
+
+  <!-- Stylized Laptop Icon -->
+  <!-- Screen frame (dark grey with light grey stroke) -->
+  <rect x="130" y="150" width="252" height="140" fill="#12151c" stroke="#c8cacb" stroke-width="6"/>
+  <!-- Inner screen area (dark grey, representing the display off or content) -->
+  <rect x="136" y="156" width="240" height="128" fill="#12151c"/>
+
+  <!-- Keyboard base (light grey trapezoid for a bold geometric effect and depth) -->
+  <path d="M 110 290 L 402 290 L 412 330 L 100 330 Z" fill="#c8cacb"/>
+  <!-- Inner keyboard area (dark grey trapezoid for contrast) -->
+  <path d="M 115 295 L 397 295 L 407 325 L 105 325 Z" fill="#12151c"/>
+
+  <!-- Brand Name "LAPTOP" -->
+  <text x="256" y="100" font-family="sans-serif" font-size="70" font-weight="900" text-anchor="middle" fill="#c8cacb">
+    LAPTOP
+  </text>
+
+  <!-- Tagline "Lenovo ThinkPad Laptop" -->
+  <text x="256" y="380" font-family="sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#c8cacb">
+    Lenovo ThinkPad Laptop
+  </text>
+</svg>

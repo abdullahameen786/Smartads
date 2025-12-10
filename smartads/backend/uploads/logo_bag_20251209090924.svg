@@ -1,0 +1,24 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Main Bag Body -->
+  <rect x="300" y="270" width="424" height="400" rx="30" ry="30" fill="#4a2650"/>
+
+  <!-- Handles -->
+  <!-- Left Handle -->
+  <rect x="350" y="230" width="40" height="70" rx="15" ry="15" fill="#4a2650"/>
+  <!-- Right Handle -->
+  <rect x="634" y="230" width="40" height="70" rx="15" ry="15" fill="#4a2650"/>
+
+  <!-- Strips (Vertical) -->
+  <!-- Left Strip -->
+  <rect x="360" y="270" width="40" height="400" fill="#6ba3bd"/>
+  <!-- Middle Strip -->
+  <rect x="492" y="270" width="40" height="400" fill="#6ba3bd"/>
+  <!-- Right Strip -->
+  <rect x="624" y="270" width="40" height="400" fill="#6ba3bd"/>
+
+  <!-- Brand Name "bag" -->
+  <text x="512" y="780" font-family="sans-serif" font-size="140" fill="#4a2650" text-anchor="middle" dominant-baseline="central">bag</text>
+
+  <!-- Tagline -->
+  <text x="512" y="860" font-family="sans-serif" font-size="40" fill="#6ba3bd" text-anchor="middle" dominant-baseline="central">black color bag with strips</text>
+</svg>

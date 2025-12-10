@@ -1,0 +1,21 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024">
+    <!-- Background - Dark blue/grey for professionalism -->
+    <rect x="0" y="0" width="1024" height="1024" fill="#2f3b56"/>
+
+    <!-- Stylized Laptop Graphic -->
+    <!-- Screen Casing - White for high contrast -->
+    <path d="M 350 300 L 674 300 L 694 500 L 330 500 Z" fill="white"/>
+    <!-- Screen Display Area - Accent blue -->
+    <path d="M 360 310 L 664 310 L 684 490 L 340 490 Z" fill="#0ea5e9"/>
+
+    <!-- Laptop Base Casing - White for high contrast -->
+    <path d="M 320 500 L 704 500 L 724 570 L 300 570 Z" fill="white"/>
+    <!-- Keyboard Area - Matches background for a sleek, integrated look -->
+    <path d="M 340 510 L 684 510 L 704 560 L 320 560 Z" fill="#2f3b56"/>
+
+    <!-- Brand Name "Laptop" -->
+    <text x="512" y="700" font-family="sans-serif" font-size="90" font-weight="bold" fill="white" text-anchor="middle">Laptop</text>
+
+    <!-- Tagline "dghhgj g jgjgjg" -->
+    <text x="512" y="780" font-family="sans-serif" font-size="40" fill="#0ea5e9" text-anchor="middle">dghhgj g jgjgjg</text>
+</svg>

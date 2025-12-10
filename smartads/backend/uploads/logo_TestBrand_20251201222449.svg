@@ -1,0 +1,15 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brand mark: Abstract symbol for innovation and progress -->
+  <g fill="#0ea5e9">
+    <!-- Main upward-pointing element, forming a dynamic "T" or arrow base -->
+    <path d="M 460 480 L 564 480 L 534 220 L 490 220 Z" />
+    <!-- Intersecting element, symbolizing breakthrough or forward motion -->
+    <path d="M 430 380 L 590 380 L 540 300 L 480 300 Z" />
+  </g>
+
+  <!-- Brand Name Text -->
+  <text x="512" y="660" font-family="sans-serif" font-size="96" fill="#111827" text-anchor="middle" font-weight="bold">TestBrand</text>
+
+  <!-- Tagline Text -->
+  <text x="512" y="740" font-family="sans-serif" font-size="44" fill="#111827" text-anchor="middle">Innovation First</text>
+</svg>

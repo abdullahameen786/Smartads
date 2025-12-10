@@ -1,0 +1,18 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#111827"/>
+
+  <!-- Brand Name "PEN" -->
+  <text x="512" y="380" font-family="sans-serif" font-size="140" font-weight="bold" fill="#0ea5e9" text-anchor="middle" dominant-baseline="central">PEN</text>
+
+  <!-- Pen Illustration -->
+  <!-- Pen Body -->
+  <rect x="362" y="505" width="300" height="15" rx="7.5" fill="#0ea5e9"/>
+  <!-- Pen Clicker/Button -->
+  <circle cx="350" cy="512.5" r="7.5" fill="#0ea5e9"/>
+  <!-- Pen Tip -->
+  <path d="M662 505 L682 512.5 L662 520 Z" fill="#0ea5e9"/>
+
+  <!-- Tagline "SIGNATURE PEN" -->
+  <text x="512" y="650" font-family="sans-serif" font-size="48" fill="white" text-anchor="middle" dominant-baseline="central">SIGNATURE PEN</text>
+</svg>
