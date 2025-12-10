@@ -6,3 +6,4 @@ werkzeug
 google-generativeai
 cloudinary
 bcrypt
+gunicorn
